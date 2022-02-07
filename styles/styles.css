@@ -1,0 +1,46 @@
+/*
+Introducción
+Autor
+.
+.
+.
+*/
+
+/*Fuentes*/
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: retro;
+    src: url("../fonts/BungeeShade-Regular.ttf");
+}
+
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Righteous-Regular.ttf);
+}
+
+/*fin fuentes*/
+
+
+/*general layout*/
+
+
+.bg-grey {background-color:rgba(41, 39, 39, 0.534)}
+
+.bg-white {background-color: #F6F5F5;}
+
+.bg-blue {background-color: #3B77BC;}
+
+/*Secciones*/
+/*Nav style*/
+#logo{
+    width: 32px;
+}
+
+h2{
+    font-family: bold; /*PASAR A UNA CLASE Y PASARLO ALLO*/
+}

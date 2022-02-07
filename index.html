@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Web</title>
+    <!--Favicon y fuentes-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./images/dedo.webp" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+<body class="bg-white">
+    <div id="wrapper" class="container">
+
+        <!--NAV RESPONSIVE DE BOOTSTRAP 5-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-blue sticky-top zindex-sticky">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img id="logo" src="./images//dedo.webp" alt="logo alien"></a>
+              
+              <!--HAMBURGUESA-->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <!--HAMBURGUESA FIN-->
+
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item link-light">
+                    <a class="nav-link active text-light link-light" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#introduction">Introduction</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#history">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#types">Types of mouses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#buynig">Mouse buying guide</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#quiz">Quiz</a>
+                  </li>
+                </ul>
+                <!--
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                -->
+              </div>
+            </div>
+          </nav>
+        <!--FIN DEL NAV RESPONSIVE DE BOOTSTRAP 5-->
+        
+
+        <header>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/windowsxpwallpaperportada.jpg" class="d-block w-100" alt="...">
+                    <a href="#history">
+                      <div class="carousel-caption d-none d-md-block bg-grey fs-1">
+                        <h1>WELCOME!</h1>
+                        <p>Discover the story behind this tool.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/tiposRatones.jpg" class="d-block w-100" alt="...">
+                    <a href="#types">
+                      <div class="carousel-caption d-none d-md-block bg-grey">
+                        <h1>WHICH SHOULD I CHOOSE?</h1>
+                        <p>Learn about types of mouses.</p>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/curiosidades.jpg" class="d-block w-100" alt="...">
+                    <a href="#quiz">
+                      <div class="carousel-caption d-none d-md-block bg-grey">
+                        <h1>YOU SAID WHAT?!</h1>
+                        <p>Have fun with our curiosities.</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+        </header>
+
+        <div class="p-5"></div>  <!--Separator-->
+
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        
+        <div class="p-2"></div> <!--Separator-->
+
+        <!--INTRODUCCION-->
+
+        <section id="introduction">
+          <div class="container p-4 fs-4 text-start p-3">
+            <h2 class="fs-2">INTRODUCTION</h2>
+            The computer mouse is a device that allows us to communicate with computer equipment, moving a cursor on the screen to point and click, it is a device that is usually connected by USB, although formerly it was connected to the PS / 2 port.
+            It is a lot more important than I think because it has allowed people who are not very computer literate and could not have been able to communicate with a computer with a keyboard and commands to use these tools.
+            What has increased the demand for equipment and therefore the investment of money and the increase in innovation. So thanks to the mouse today the world is what it is.
+          </div>
+        </section>
+
+        <div class="p-5"></div>  <!--Separator-->
+
+        <div class="progress">
+          <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        
+        <div class="p-2"></div> <!--Separator-->
+
+        <!-- HISTORIA  -->
+        <section id="history">  <!--INICIO ACORDEON-->
+
+          <h2 class="fs-1 p-4 text-dark">HISTORY</h2>
+
+          <div class="accordion accordion-flush " id="accordionFlushExample">
+            
+            
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed btn btn-outline-secondary d-block m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <span class="fs-1"> 🧓👴 Creators 🧓👴 </span>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse p-5 fs-3" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                
+                The first mouse as we know it was designed during the 1960s (1963). It was an invention co-designed by two men, Bill English (right) and Douglas Engelbart (left).
+                
+                This device had the appearance of a wooden paving stone and worked thanks to two metal wheels that established the X and Y axes.
+                
+                It also had a red button at the top.
+                
+                Although it seems very archaic, the logic behind the device is not very different from current mouse.
+                
+                <img class="rounded mx-auto d-block img-fluid pt-5" src="./images/creadores.jpg" alt="">
+
+                <div class="accordion-body"> <br>
+                  </div>
+              </div>
+            </div>
+            
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button btn-outline-secondary  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <span class="fs-1"> 💻 First computer 💻 </span>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse p-5 fs-3" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                  
+                  In 1981 the first PC with a built-in mouse appeared (Xerox star 8010 | right), it also included a graphical user interface
+                  
+                  Although it already existed, it was with the Mac 1984 that this tool really became popular (left image)
+                  
+                  <img class="rounded mx-auto d-block img-fluid pt-5"  src="./images/computers.jpg" alt="">
+                
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button btn-outline-secondary  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <span class="fs-1"> ⚙️ First mouses ⚙️ </span>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse p-5 fs-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+
+                  
+                  The first commercial mouse were mechanical, that is, they used a plastic ball that moves two wheels, similar to those of the 1963 protocol.
+                  
+                  Some time later, in 1999, the first optical mouse came out, the Microsoft Intellimouse Intellieye.
+                  
+                  <img class="rounded mx-auto d-block img-fluid pt-5" src="./images/firstMouses.jpg" alt="">
+                  
+                </div>
+
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button btn-outline-secondary  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourth" aria-expanded="false" aria-controls="flush-collapseFourth">
+                    <span class="fs-1"> 🕹️ Actual uses 🕹️ </span>
+                  </button>
+                </h2>
+                <div id="flush-collapseFourth" class="accordion-collapse collapse p-5 fs-3" aria-labelledby="flush-headingFourth" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    
+                    
+                    Currently the market is focused on "gaming" mouse, dedicated to video games, since this is where a very precise and comfortable pointer is required for competitive games.
+                    
+                    These have many buttons to allow assigning controls to them, for example for reloading in a shooter video game.
+                    
+                    Extremely precise and fluid movement has already been achieved in these peripherals and it is difficult to glimpse their future.
+                    
+                    <img class="rounded mx-auto d-block img-fluid pt-5" src="./images/gaming.jpg" alt="">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFifth">
+                  <button class="accordion-button btn-outline-secondary collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifth" aria-expanded="false" aria-controls="flush-collapseFifth">
+                    <span class="fs-1"> 🍎 New designs 🍎 </span>
+                  </button>
+                </h2>
+                <div id="flush-collapseFifth" class="accordion-collapse collapse p-5 fs-3" aria-labelledby="flush-headingFifth" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    
+                    
+                    There are also new models that provide innovative designs, such as the apple "magic mouse" or the logitech MX with its vertical design.
+                    
+                    <img class="rounded mx-auto d-block img-fluid pt-5" src="./images/newDesigns.jpg" alt="">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+              
+              
+              
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                  <button class="accordion-button btn-outline-secondary  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                    <span class="fs-1"> 🔮 Interesting future... 🔮 </span>
+                  </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse p-5 fs-3" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    
+                    
+                    The mouse models that we know are already highly evolved (polling rate, DPI ...) but new very interesting models are appearing.
+                    
+                    An example of these are the new devices that allow us to interact in virtual reality environments. Since in these we cannot make use of current devices.
+                    
+                    It should be noted that these devices would not be mouse as such, they would be more like nice substitutes in VR environments.
+                    
+                    It is also important to know that these new controllers are at a very early stage, and it is expected that in a few years this technology will be more established, for gaming and even professional functions (architecture, industrial design...).
+                    
+                    <img class="rounded mx-auto d-block img-fluid pt-5" src="./images/future.jpg" alt="">
+                    
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+              
+            
+          </section> <!--FIN ACORDEON-->
+          
+          <div class="p-5"></div>  <!--Separator-->
+
+          <div class="progress">
+            <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          
+          <div class="p-2"></div> <!--Separator-->
+
+          <section id="types">
+            <h2 class="fs-1 p-4 text-dark p-5">TYPES OF MOUSES</h2>
+            
+            <div class="container">
+              
+              <div class="container container-fluid">
+                <div class="row">
+
+                                    <!--PRIMERA CARD-->
+                  <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                    <div class="card-body">
+                      <img src="./images/mouse-bolita1.png" class="card-img-top" alt="...">
+                      <p class="card-text">
+                        <h3>Ball</h3>
+                        <P> -They use the traditional system to determine the position of the cursor.</P>
+                    
+                        <P> -They accumulate a lot of dirt on the ball. </P>
+                        
+                        <P> -Less accurate than opticians </P>
+                        
+                        <P> -They connect through the ps2 port </P>
+                        
+                        <P> -For the nostalgic </P>
+                      </p>
+                    </div>
+                  </div>
+
+
+                                    <!--SEGUNDA CARD-->
+                  <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                    <div class="card-body">
+                      <img src="./images/Ratonesopticos01.webp" class="card-img-top" alt="...">
+                      <p class="card-text">
+                        <h3>With optical sensor</h3>
+                        <p>-They are responsible for determining the position of the mouse taking thousands of images per second, there are two types: </p>
+                    
+                        <p>Infrared: </p>
+                        
+                        <p>These work best on rough surfaces </p>
+                        
+                        <p>Laser: </p>
+                        
+                        <p>Better on smooth or slippery surfaces, like glass </p>
+                      </p>
+                    </div>
+                  </div>
+
+                                      <!--TERCERA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img src="./images/verticalMouse.png" class="card-img-top" alt="...">
+                        <p class="card-text">
+                          <h3>Ergonomic</h3>
+                          <p>-Adjust better to the grip of the hand.</p>
+                      
+                          <p>-Normally they have a very unique vertical layout.</> </p>
+                        </p>
+                      </div>
+                    </div>
+
+                    
+                                      <!--CUARTA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img src="./images/raton-inalambrico.png" class="card-img-top" alt="...">
+                        <p class="card-text">
+                          <h3>Wireless</h3>
+                          -All types of mouse seen above can be wireless. <br>
+
+                          -You can connect without cable <br>
+                            
+                          -There are those that are connected by bluethooth <br>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <div class="row">
+
+
+                                      <!--QUINTA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img src="./images/trackpad.png" class="card-img-top" alt="...">
+                        <p class="card-text">
+                          <h3>Trackball</h3>
+                          -They consist of a ball that we move instead of the mouse itself. <br>
+
+                          -For places where mobility is reduced. <br>
+                          
+                          -For people with some kind of disability or injury <br>
+                        </p>
+                      </div>
+                    </div>
+
+
+                                      <!--SEXTA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img src="./images/Touchpad-portátil-01.webp" class="card-img-top" alt="...">
+                        <p class="card-text">
+                          <h3>Touchpad</h3>
+                          -They are not mouse as such. <br> <br>
+
+                          -They replace the function of the same in laptops <br> <br>
+                          
+                          -There are quite complete ones, there are some that are multi-touch and perform certain actions depending on how many fingers you use them with. <br> <br>
+                        </p>
+                      </div>
+                    </div>
+
+                                      <!--SÉPTIMA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img src="./images/mouse3d.png" class="card-img-top" alt="...">
+                        <p class="card-text">
+                          <h3>3d mouse</h3>
+                          -They consist of a six-degree motion sensor that allows you to point with great precision in 3D environments. <br>
+                        </p>
+                      </div>
+                    </div>
+
+                    
+                                      <!--OCTAVA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img src="./images/zurdos.png" class="card-img-top" alt="...">
+                        <p class="card-text">
+                          <h3>For lefties</h3>
+                          -Mouse for left-handed people. <br>
+                        </p>
+                      </div>
+                    </div>
+
+                  </div>
+                  </div>
+                </div>
+                
+                
+                <div class="p-5"></div>  <!--Separator-->
+
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <div class="p-2"></div> <!--Separator-->
+
+                <section id="buynig"> <!--BUYING GUIDE SECTION-->
+                  <h2 class="fs-1 p-5 text-dark">MOUSE BUYING GUIDE</h2> <!---->
+
+                  
+              <div class="container">
+
+                <div class="container">
+                  <div class="row p-2">
+                    <div class="col col-12 col-md-6 p-5 fs-5">
+                      <p>Comfort. </p>
+                      <p> For this you will have to take into account the shape of the mouse and your type of grip, there are 3 types: 
+                      </p>
+                      <ul>
+                        <li> Palm: You need a mouse with an inclined curvature to the side with which you are going to hold the mouse. </li>
+                        <li> Claw: They are usually elongated and fully centered mouse. </li>
+                        <li> Fingers: They are usually smaller mouse with a more round shape, also centered. </li>
+                    </ul>
+                    </div>
+                    <div class="col col-12 col-md-6 p-5">
+                      <img src="./images/TiposAgarres.png" class="card-img-top p-3" alt="...">
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col col-12 col-md-6 p-5">
+                      <img src="./images/ratones.jpg" class="card-img-top p-3" alt="...">
+                    </div>
+                    <div class="col col-12 col-md-6 fs-5">
+                      <p>The type. </p>
+                      <p> It is important to take into account what is mentioned in the mouse types section:
+                      </p>
+                      <ul>
+                        <li> We will have to know if we want a wired or wireless one  </li>
+                        <li> It is important to know where we will use it to choose between laser (glass table) and infrared (mat or cloth).  </li>
+                        <li> It is important to know if we want an ergonomic or left-handed one. </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col col-12 col-md-6 p-5 fs-5">
+                      <p>The quality. </p>
+                      <p> It is important to take into account the quality of the product: 
+                      </p>
+                      <ul>
+                        <li> We must ensure that it is made of materials that will not spoil in a short time.  </li>
+                        <li> We can look at the mouse brand to see if it is of good quality (razer, logitech).  </li>
+                        <li> We must also adapt this to our needs, we must not fall short or go too far. </li>
+                    </ul>
+                    </div>
+                    <div class="col col-12 col-md-6 p-5">
+                      <img src="./images/ratonColacao.webp" class="card-img-top p-3" alt="...">
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="col col-12 col-md-6 p-5">
+                      <img src="./images/gamingMouse2.png" class="card-img-top p-3" alt="...">
+                    </div>
+                    <div class="col col-12 col-md-6 p-5 fs-5">
+                      <p>Features. </p>
+                      <p> In case you want a mouse for gaming or activities that need speed:  
+                      </p>
+                      <ul>
+                        <li> DPI or dots per inch, which allows us to see the resolution of the mouse. We will be able to know how many pixels the mouse will move for each inch.  </li>
+                        <li> IPS or inches per second, which is the speed at which the mouse sensor can accurately track movement.  </li>
+                        <li> The number of buttons that we want our mouse to have in order to assign keys to them.  </li>
+                    </ul>
+                    </div>
+                  </div>
+
+                  <div class="ratio ratio-21x9">
+                    <iframe src="https://www.youtube.com/embed/ezT79-_egM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+
+                </section> <!--FIN DE GUIA DE COMPRA-->
+                
+                <div class="p-5"></div>  <!--Separator-->
+
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <div class="p-2"></div> <!--Separator-->
+
+                <section id="quiz">
+
+                  <h2 class="fs-1 p-4 text-dark">QUIZ</h2>
+
+                  <div class="row">
+
+                    <!--PRIMERA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card-body">
+                        <img class="img-fluid" src="./images/nomoney.png" alt="">
+                        <p class="card-text">
+
+                          <p> <!--Primer collapse-->
+        
+                            <button class="btn btn-primary bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                              Has been a profitable invention?
+                            </button>
+                          </p>
+                          <div class="collapse" id="collapse1">
+                            <div class="card card-body">
+                              Its creators did not charge ANYTHING. The patent is from Stanford
+                            </div>
+                          </div> <!--FIN Primer collapse-->
+                      </div>
+                    </div>
+
+
+                                      <!--SEGUNDA CARD-->
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <img class="img-fluid" src="./images/lotmoney.png" alt="">
+                      <div class="card-body">
+                        <p class="card-text">
+                          <button class="btn btn-primary bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            how much did they cost in the beginning?
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapse2">
+                          <div class="card card-body">
+                            They started out costing 1000$ today
+                          </div>
+                        </div> <!--FIN Segundo collapse-->
+                        </div>
+      
+                        <div class="col col-12 col-sm-3">
+                        </p>
+                      </div>
+                    </div>
+
+                                        <!--TERCERA CARD-->
+                      <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                        <img class="img-fluid" src="./images/realMouse.webp" alt="">
+                        <div class="card-body">
+                          <p class="card-text">
+                            <p> <!--Tercer collapse-->
+                    
+                              <button class="btn btn-primary bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                ¿Where does its name come from?
+                              </button>
+                            </p>
+                            <div class="collapse" id="collapse3">
+                              <div class="card card-body">
+                                Its name comes from the "tail" of the mouse
+                              </div>
+                            </div> <!--FIN Tercer collapse-->
+                        </div>
+                      </div>
+
+                      
+                                        <!--CUARTA CARD-->
+                      <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                        <img class="img-fluid" src="./images/cursor.png" alt="">
+                        <div class="card-body">
+                          <p class="card-text">
+
+                            <p> <!--Cuarto collapse-->
+                              <button class="btn btn-primary bg-blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                why is the cursor rotated?
+                              </button>
+                            </p>
+                            <div class="collapse" id="collapse4">
+                              <div class="card card-body">
+                                The cursor is rotated for better viewing
+                              </div>
+                            </div> <!--FIN Cuarto collapse-->
+                          </p>
+                        </div>
+                      </div>
+
+                    </div>
+
+                    <div class="row">
+                                    
+                      
+                </section>
+
+                <div class="p-5"></div>  <!--Separator-->
+
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-blue" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                
+                <div class="p-2"></div> <!--Separator-->
+
+
+                <section id="who">
+
+                  <h2 class="fs-1 p-4 text-dark">CONTACT US</h2>
+                  <div class="container p-4 fs-4 text-start p-3">
+                    <h3 class="fs-2">Where are we?</h3>
+                    Whe are a couple of students from IES Campanilla in Málaga (Spain).
+                  </div>
+                  <div class="ratio ratio-21x9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d776.560177457267!2d-4.5549031793524195!3d36.74032126927991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d06d8246c9%3A0xb6dccfba3e65a1f2!2sFP%20IES%20Campanillas%20PTA!5e0!3m2!1ses!2ses!4v1644058017277!5m2!1ses!2ses"></iframe>
+                  </div>
+                  <div class="container p-4 fs-4 text-start p-3">
+                    <h3 class="fs-2">Who are we?</h3>
+                    Whe are a couple of students from IES Campanilla in Málaga (Spain).
+                  </div>
+                  
+                  <div class="row">
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card"> <!--Primera card-->
+                        <img src="./images/linusTorvals.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">CEO of the company.</p>
+                        </div> <!--Fin primera card-->
+                      </div>
+                    </div>
+
+
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card"> <!--segunda card-->
+                        <img src="./images/jonRomero.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">CTO of the company.</p>
+                        </div> <!--Fin segunda card-->
+                      </div>
+                    </div>
+
+
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card"> <!--Primera card-->
+                        <img src="./images/EdmundMcMillen.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Designer of the company.</p>
+                        </div> <!--Fin primera card-->
+                      </div>
+                    </div>
+
+                    
+                    <div class="card col-12 col-sm-6 col-lg-3 p-3">
+                      <div class="card"> <!--segunda card-->
+                        <img src="./images/TobyFox.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Lead Programmer.</p>
+                        </div> <!--Fin segunda card-->
+                      </div>
+                    </div>
+                  </div>
+                  
+                  
+
+                    
+
+                </section>
+
+
+
+                <div class="container">
+                  <footer class="row row-cols-5 py-5 my-5 border-top">
+                    <div class="col">
+                      <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+                      </a>
+                      <p class="text-muted">IES Campanillas© copyright license 2021</p>
+                    </div>
+                
+                    <div class="col">
+                
+                    </div>
+                
+                    <div class="col">
+                      <h5>Redes sociales</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="https://mobile.twitter.com/home" target="_blank" class="nav-link p-0 text-muted">🐤 Twitter</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.youtube.com/" target="_blank" class="nav-link p-0 text-muted">🎬 Youtube</a></li>
+                        <li class="nav-item mb-2"><a href="https://www.instagram.com/" target="_blank" class="nav-link p-0 text-muted">🎭 Instagram</a></li>
+                        <li class="nav-item mb-2"><a href="https://github.com/" target="_blank" class="nav-link p-0 text-muted">👨‍💻 Github</a></li>
+                      </ul>
+                    </div>
+                
+                    <div class="col">
+                      <h5>Contacto</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">email: contacto@gmail.com</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">dirección: C/Frederick Termann</a></li>
+                      </ul>
+                    </div>
+
+                  </footer>
+                </div>
+
+              </div> <!--FIN DEL WRAPPER-->
+              
+            </section>
+          </div>
+        </div>
+          
+          
+          
+          
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        </body>
+        </html>
